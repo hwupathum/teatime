@@ -164,9 +164,15 @@ const answersText = {
     "Animals": ["Hyena", "Llama", "Red Panda", "Sloth", "Jackal", "Racoon", "Gorilla", "Guinea Pig"]
 }
 
-export default function QuizPage({ category, quizNumber, timer, setSelectedQuiz }) {
+export default function QuizPage({ category, quizNumber, initialTimer, setSelectedQuiz, secondaryTimer }) {
     const [showAnswer, setShowAnswer] = React.useState(false);
     const [showQuiz, setShowQuiz] = React.useState(false);
+    const [timer, setTimer] = React.useState(initialTimer);
+    const [timerKey, setTimerKey] = React.useState(1);
+    const resetTimer = () => {
+        setTimer(secondaryTimer);
+        setTimerKey(timerKey+1);
+    }
     return (
         <>
             <Grid container justifyContent={"center"}>
@@ -177,10 +183,11 @@ export default function QuizPage({ category, quizNumber, timer, setSelectedQuiz 
                         </Grid>
                         <Grid item xs={12} style={{ height: 12 }} />
                         <Grid item>
-                            <Countdown date={Date.now() + 1000 * timer} />
+                            {!showAnswer && <Countdown date={Date.now() + 1000 * timer} key={timerKey} /> }
                         </Grid>
                         <Grid item xs={12} style={{ height: 12 }} />
                         <Grid item>
+                            <Button variant="contained" style={{ margin: 12 }} onClick={resetTimer} >Reset Timer</Button>
                             <Button variant="contained" style={{ margin: 12 }} onClick={() => setShowAnswer(true)} >Show Answer</Button>
                             <Button onClick={() => setSelectedQuiz(null)} variant="contained" style={{ margin: 12 }}>Back</Button>
                         </Grid>
