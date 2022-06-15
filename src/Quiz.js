@@ -35,7 +35,7 @@ const answers = {
         "/politicians/vasudeva-nanayakkara.jpg",
         "/politicians/vladimir-putin.jpg",
     ],
-    "Animals": ["/animals/hyena.jpeg", "/animals/owl.jpeg", "/animals/redpanda.webp", "/animals/sloth.jpeg", "/animals/racoon.jpeg", "/animals/cheetah.jpeg", "/animals/gorilla.jpeg", "/animals/guineapig.jpeg",]
+    "Animals": ["/animals/hyena.jpeg", "/animals/llama.jpeg", "/animals/redpanda.webp", "/animals/sloth.jpeg", "/animals/jackal.jpeg", "/animals/racoon.jpeg", "/animals/gorilla.jpeg", "/animals/guineapig.jpeg",]
 }
 
 const cropped = {
@@ -71,7 +71,7 @@ const cropped = {
         "/politicians/cropped/vasudeva-nanayakkara.jpeg",
         "/politicians/cropped/vladimir-putin.jpeg",
     ],
-    "Animals": ["/animals/cropped/hyena.png", "/animals/cropped/owl.png", "/animals/cropped/redpanda.png", "/animals/cropped/sloth.png", "/animals/cropped/racoon.png", "/animals/cropped/cheetah.png", "/animals/cropped/gorilla.png", "/animals/cropped/guineapig.png",]
+    "Animals": ["/animals/cropped/hyena.png", "/animals/cropped/llama.png", "/animals/cropped/redpanda.png", "/animals/cropped/sloth.png", "/animals/cropped/jackal.png", "/animals/cropped/racoon.png", "/animals/cropped/gorilla.png", "/animals/cropped/guineapig.png",]
 }
 
 const answersText = {
@@ -107,7 +107,7 @@ const answersText = {
         "Vasudeva Nanayakkara",
         "Vladimir Putin" 
     ],
-    "Animals": ["Hyena", "Owl", "Red Panda", "Sloth", "Racoon", "Cheetah", "Gorilla", "Guinea Pig"]
+    "Animals": ["Hyena", "Llama", "Red Panda", "Sloth", "Jackal", "Racoon", "Gorilla", "Guinea Pig"]
 }
 
 export default function QuizPage({ category, quizNumber, timer, setSelectedQuiz }) {
