@@ -6,7 +6,16 @@ const answers = {
     "Singers": ["/singers/adamlevine.webp", "/singers/taylorwsift.webp"],
     "Scientists": [],
     "Actors": [],
-    "Sportperson": [],
+    "Sportperson": [
+        "/sportspeople/Critiano Ronaldo.jpeg",
+        "/sportspeople/Usain Bolt.jpeg",
+        "/sportspeople/Dan Carter.jpeg",
+        "/sportspeople/Kane Williamson.jpeg",
+        "/sportspeople/LeBron James.jpeg",
+        "/sportspeople/Lewis Hamilton.webp",
+        "/sportspeople/Michael Phelps.webp",
+        "/sportspeople/Serena Williams.webp",
+    ],
     "Politicians": [],
     "Animals": []
 }
@@ -15,7 +24,16 @@ const cropped = {
     "Singers": ["/singers/cropped/adamlevine.png"],
     "Scientists": [],
     "Actors": [],
-    "Sportperson": [],
+    "Sportperson": [
+        "/sportspeople/cropped/Critiano Ronaldo.jpeg",
+        "/sportspeople/cropped/Usain Bolt.jpeg",
+        "/sportspeople/cropped/Dan Carter.jpeg",
+        "/sportspeople/cropped/Kane Williamson.jpeg",
+        "/sportspeople/cropped/LeBron James.jpeg",
+        "/sportspeople/cropped/Lewis Hamilton.jpeg",
+        "/sportspeople/cropped/Michael Phelps.jpeg",
+        "/sportspeople/cropped/Serena Williams.jpeg",
+    ],
     "Politicians": [],
     "Animals": []
 }
@@ -24,7 +42,16 @@ const answersText = {
     "Singers": ["Adam Levine", "Taylow Swift"],
     "Scientists": [],
     "Actors": [],
-    "Sportperson": [],
+    "Sportperson": [
+        "Cristiano Ronaldo",
+        "Usain Bolt",
+        "Dan Carter",
+        "Kane Williamson",
+        "LeBron James",
+        "Lewis Hamilton",
+        "Michael Phelps",
+        "Serena Williams",
+    ],
     "Politicians": [],
     "Animals": []
 }
