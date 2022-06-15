@@ -25,7 +25,16 @@ const answers = {
         "/sportspeople/Michael Phelps.webp",
         "/sportspeople/Serena Williams.webp",
     ],
-    "Politicians": [],
+    "Politicians": [
+        "/politicians/angela-merkel.jpg",
+        "/politicians/anura-kumara.jpg",
+        "/politicians/gotabaya-rajapaksa.jpg",
+        "/politicians/jacinda-arden.jpg",
+        "/politicians/mahinda-rajapaksa.jpg",
+        "/politicians/maithripala-sirisena.jpg",
+        "/politicians/vasudeva-nanayakkara.jpg",
+        "/politicians/vladimir-putin.jpg",
+    ],
     "Animals": ["/animals/hyena.jpeg", "/animals/owl.jpeg", "/animals/redpanda.webp", "/animals/sloth.jpeg", "/animals/racoon.jpeg", "/animals/cheetah.jpeg", "/animals/gorilla.jpeg", "/animals/guineapig.jpeg",]
 }
 
@@ -52,7 +61,16 @@ const cropped = {
         "/sportspeople/cropped/Michael Phelps.jpeg",
         "/sportspeople/cropped/Serena Williams.jpeg",
     ],
-    "Politicians": [],
+    "Politicians": [
+        "/politicians/cropped/angela-merkel.jpeg",
+        "/politicians/cropped/anura-kumara.jpeg",
+        "/politicians/cropped/gotabaya-rajapaksa.jpeg",
+        "/politicians/cropped/jacinda-arden.jpeg",
+        "/politicians/cropped/mahinda-rajapaksa.jpeg",
+        "/politicians/cropped/maithripala-sirisena.jpeg",
+        "/politicians/cropped/vasudeva-nanayakkara.jpeg",
+        "/politicians/cropped/vladimir-putin.jpeg",
+    ],
     "Animals": ["/animals/cropped/hyena.png", "/animals/cropped/owl.png", "/animals/cropped/redpanda.png", "/animals/cropped/sloth.png", "/animals/cropped/racoon.png", "/animals/cropped/cheetah.png", "/animals/cropped/gorilla.png", "/animals/cropped/guineapig.png",]
 }
 
@@ -79,7 +97,16 @@ const answersText = {
         "Michael Phelps",
         "Serena Williams",
     ],
-    "Politicians": [],
+    "Politicians": [
+        "Angela Merkel", 
+        "Anura Kumara", 
+        "Gotabaya Rajapaksa", 
+        "Jacinda Arden", 
+        "Mahinda Rajapaksa",
+        "Maithripala Sirisena",
+        "Vasudeva Nanayakkara",
+        "Vladimir Putin" 
+    ],
     "Animals": ["Hyena", "Owl", "Red Panda", "Sloth", "Racoon", "Cheetah", "Gorilla", "Guinea Pig"]
 }
 
