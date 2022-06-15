@@ -5,7 +5,16 @@ import Countdown from 'react-countdown';
 const answers = {
     "Singers": ["/singers/adamlevine.webp", "/singers/taylorwsift.webp"],
     "Scientists": [],
-    "Actors": [],
+    "Actors": [
+      "/actors/Alexandra Daddario.jpg", 
+      "/actors/Anne Hathaway.jpg", 
+      "/actors/Blake Lively.jpg",
+      "/actors/Daniel Radcliffe.jpg", 
+      "/actors/Leonardo DiCaprio.jpg", 
+      "/actors/Rachel McAdams.jpg", 
+      "/actors/Tom Cruise.jpg",
+    "/actors/Will Smith.jpg"
+    ],
     "Sportperson": [
         "/sportspeople/Critiano Ronaldo.jpeg",
         "/sportspeople/Usain Bolt.jpeg",
@@ -23,7 +32,16 @@ const answers = {
 const cropped = {
     "Singers": ["/singers/cropped/adamlevine.png"],
     "Scientists": [],
-    "Actors": [],
+    "Actors": [
+      "/actors/cropped/Alexandra Daddario.jpg",
+      "/actors/cropped/Anne Hathaway.jpg",
+      "/actors/cropped/Blake Lively.jpg",
+      "/actors/cropped/Daniel Radcliffe.jpg", 
+      "/actors/cropped/Leonardo DiCaprio.jpg", 
+      "/actors/cropped/Rachel McAdams.jpg", 
+      "/actors/cropped/Tom Cruise.jpg", 
+      "/actors/cropped/Will Smith.jpg"
+    ],
     "Sportperson": [
         "/sportspeople/cropped/Critiano Ronaldo.jpeg",
         "/sportspeople/cropped/Usain Bolt.jpeg",
@@ -41,7 +59,16 @@ const cropped = {
 const answersText = {
     "Singers": ["Adam Levine", "Taylow Swift"],
     "Scientists": [],
-    "Actors": [],
+    "Actors": [
+      "Alexandra Daddario", 
+      "Anne Hathaway", 
+      "Blake Lively", 
+      "Daniel Radcliffe", 
+      "Leonardo DiCaprio",  
+      "Rachel McAdams", 
+      "Tom Cruise", 
+      "Will Smith"
+    ],
     "Sportperson": [
         "Cristiano Ronaldo",
         "Usain Bolt",
