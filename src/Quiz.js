@@ -8,7 +8,7 @@ const answers = {
     "Actors": [],
     "Sportperson": [],
     "Politicians": [],
-    "Animals": []
+    "Animals": ["/animals/hyena.jpeg", "/animals/owl.jpeg", "/animals/redpanda.webp", "/animals/sloth.jpeg", "/animals/racoon.jpeg", "/animals/cheetah.jpeg", "/animals/gorilla.jpeg", "/animals/guineapig.jpeg",]
 }
 
 const cropped = {
@@ -17,7 +17,7 @@ const cropped = {
     "Actors": [],
     "Sportperson": [],
     "Politicians": [],
-    "Animals": []
+    "Animals": ["/animals/cropped/hyena.png", "/animals/cropped/owl.png", "/animals/cropped/redpanda.png", "/animals/cropped/sloth.png", "/animals/cropped/racoon.png", "/animals/cropped/cheetah.png", "/animals/cropped/gorilla.png", "/animals/cropped/guineapig.png",]
 }
 
 const answersText = {
@@ -26,7 +26,7 @@ const answersText = {
     "Actors": [],
     "Sportperson": [],
     "Politicians": [],
-    "Animals": []
+    "Animals": ["Hyena", "Owl", "Red Panda", "Sloth", "Racoon", "Cheetah", "Gorilla", "Guinea Pig"]
 }
 
 export default function QuizPage({ category, quizNumber, timer, setSelectedQuiz }) {

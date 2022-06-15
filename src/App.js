@@ -2,7 +2,7 @@ import { Table, TableBody, TableCell, TableRow, Button, Typography } from "@mui/
 import React from "react";
 import QuizPage from "./Quiz";
 
-const categories = ["Singers", "Scientists", "Actors", "Sportperson", "Politicians"];
+const categories = ["Singers", "Scientists", "Actors", "Sportperson", "Politicians", "Animals"];
 const quizCount = 8;
 const timer = 30;
 
