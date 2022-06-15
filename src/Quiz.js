@@ -3,7 +3,16 @@ import { Grid, Button, Typography } from "@mui/material";
 import Countdown from 'react-countdown';
 
 const answers = {
-    "Singers": ["/singers/adamlevine.webp", "/singers/taylorwsift.webp"],
+    "Singers": [
+        "/singers/adamlevine.webp",
+        "/singers/taylor-swift.jpeg",
+        "/singers/john-legend.jpeg",
+        "/singers/elvis-presley.jpeg",
+        "/singers/pitbull.jpeg",
+        "/singers/ed-sheeran.jpeg",
+        "/singers/adele.jpeg",
+        "/singers/beyonce.jpg"
+    ],
     "Scientists": [],
     "Actors": [
       "/actors/Alexandra Daddario.jpg", 
@@ -39,7 +48,16 @@ const answers = {
 }
 
 const cropped = {
-    "Singers": ["/singers/cropped/adamlevine.png"],
+    "Singers": [
+        "/singers/cropped/adamlevine.png",
+        "/singers/cropped/taylor-swift-cropped.png",
+        "/singers/cropped/john-legend-cropped.png",
+        "/singers/cropped/elvis-presley-cropped-lanczos3.jpg",
+        "/singers/cropped/pitbull-cropped.png",
+        "/singers/cropped/ed-sheeran-cropped.png",
+        "/singers/cropped/adele-cropped.png",
+        "/singers/cropped/beyonce-cropped.png"
+    ],
     "Scientists": [],
     "Actors": [
       "/actors/cropped/Alexandra Daddario.jpg",
@@ -75,7 +93,16 @@ const cropped = {
 }
 
 const answersText = {
-    "Singers": ["Adam Levine", "Taylow Swift"],
+    "Singers": [
+            "Adam Levine",
+            "Taylor Swift",
+            "John Legend",
+            "Elvis Presley",
+            "Pitbull",
+            "Ed Sheeran",
+            "Adele",
+            "Beyonce"
+    ],
     "Scientists": [],
     "Actors": [
       "Alexandra Daddario", 
