@@ -5,7 +5,9 @@ import Countdown from 'react-countdown';
 const answers = {
     "Singers": ["/singers/adamlevine.webp", "/singers/taylorwsift.webp"],
     "Scientists": [],
-    "Actors": [],
+    "Actors": ["/actors/Alexandra Daddario.jpg", "/actors/Anne Hathaway.jpg", "/actors/Blake Lively.jpg",
+    "/actors/Daniel Radcliffe.jpg", "/actors/Leonardo DiCaprio.jpg", "/actors/Rachel McAdams.jpg", "/actors/Tom Cruise.jpg",
+    "/actors/Will Smith.jpg"],
     "Sportperson": [],
     "Politicians": [],
     "Animals": ["/animals/hyena.jpeg", "/animals/owl.jpeg", "/animals/redpanda.webp", "/animals/sloth.jpeg", "/animals/racoon.jpeg", "/animals/cheetah.jpeg", "/animals/gorilla.jpeg", "/animals/guineapig.jpeg",]
@@ -14,7 +16,9 @@ const answers = {
 const cropped = {
     "Singers": ["/singers/cropped/adamlevine.png"],
     "Scientists": [],
-    "Actors": [],
+    "Actors": ["/actors/cropped/Alexandra Daddario.jpg", "/actors/cropped/Anne Hathaway.jpg", "/actors/cropped/Blake Lively.jpg",
+    "/actors/cropped/Daniel Radcliffe.jpg", "/actors/cropped/Leonardo DiCaprio.jpg", "/actors/cropped/Rachel McAdams.jpg",
+    "/actors/cropped/Tom Cruise.jpg", "/actors/cropped/Will Smith.jpg"],
     "Sportperson": [],
     "Politicians": [],
     "Animals": ["/animals/cropped/hyena.png", "/animals/cropped/owl.png", "/animals/cropped/redpanda.png", "/animals/cropped/sloth.png", "/animals/cropped/racoon.png", "/animals/cropped/cheetah.png", "/animals/cropped/gorilla.png", "/animals/cropped/guineapig.png",]
@@ -23,7 +27,8 @@ const cropped = {
 const answersText = {
     "Singers": ["Adam Levine", "Taylow Swift"],
     "Scientists": [],
-    "Actors": [],
+    "Actors": ["Alexandra Daddario", "Anne Hathaway", "Blake Lively", "Daniel Radcliffe", "Leonardo DiCaprio",
+     "Rachel McAdams", "Tom Cruise", "Will Smith"],
     "Sportperson": [],
     "Politicians": [],
     "Animals": ["Hyena", "Owl", "Red Panda", "Sloth", "Racoon", "Cheetah", "Gorilla", "Guinea Pig"]
