@@ -13,7 +13,16 @@ const answers = {
         "/singers/adele.jpeg",
         "/singers/beyonce.jpg"
     ],
-    "Scientists": [],
+    "Scientists": [
+        "scientists/Alan Turing.jpg",
+        "scientists/Charles Darwin.jpeg",
+        "scientists/Einstein.jpeg",
+        "scientists/Hawking.jpg",
+        "scientists/Henry Ford.jpg",
+        "scientists/Marie Curie.jpg",
+        "scientists/Nikola Tesla.jpg",
+        "scientists/Thomal Edison.jpeg"
+    ],
     "Actors": [
       "/actors/Alexandra Daddario.jpg", 
       "/actors/Anne Hathaway.jpg", 
@@ -58,7 +67,16 @@ const cropped = {
         "/singers/cropped/adele-cropped.png",
         "/singers/cropped/beyonce-cropped.png"
     ],
-    "Scientists": [],
+    "Scientists": [
+        "scientists/cropped/Alan Turing.jpg",
+        "scientists/cropped/Charles Darwin.jpeg",
+        "scientists/cropped/Einstein.jpeg",
+        "scientists/cropped/Hawking.jpg",
+        "scientists/cropped/Henry Ford.jpg",
+        "scientists/cropped/Marie Curie.jpg",
+        "scientists/cropped/Nikola Tesla.jpg",
+        "scientists/cropped/Thomal Edison.jpeg"
+    ],
     "Actors": [
       "/actors/cropped/Alexandra Daddario.jpg",
       "/actors/cropped/Anne Hathaway.jpg",
@@ -103,7 +121,16 @@ const answersText = {
             "Adele",
             "Beyonce"
     ],
-    "Scientists": [],
+    "Scientists": [
+        "Alan Turing",
+        "Charles Darwin",
+        "Albert Einstein",
+        "Stephen Hawking",
+        "Henry Ford",
+        "Marie Curie",
+        "Nikola Tesla",
+        "Thomas Alva Edison"
+    ],
     "Actors": [
       "Alexandra Daddario", 
       "Anne Hathaway", 
