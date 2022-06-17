@@ -5,6 +5,7 @@ import QuizPage from "./Quiz";
 const categories = ["Singers", "Scientists", "Actors", "Sportperson", "Politicians", "Animals"];
 const quizCount = 8;
 const timer = 30;
+const secondaryTimer = 15;
 
 function App() {
   const [quizMatrix, setQuizMatrix] = React.useState(Object.assign({}, ...categories.map((cat) => ({ [cat]: Array(quizCount).fill(false) }))));
@@ -43,7 +44,7 @@ function App() {
           <Typography textAlign={"center"} variant="h6">
             {selectedQuiz[0]} -  Question {selectedQuiz[1] + 1}
           </Typography>
-          <QuizPage category={selectedQuiz[0]} quizNumber={selectedQuiz[1]} setSelectedQuiz={setSelectedQuiz} timer={timer}/>
+          <QuizPage category={selectedQuiz[0]} quizNumber={selectedQuiz[1]} setSelectedQuiz={setSelectedQuiz} initialTimer={timer} secondaryTimer={secondaryTimer}/>
         </>
       ) : (
         <Table style={{ marginTop: 30 }}>
