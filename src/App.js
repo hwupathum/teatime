@@ -4,8 +4,8 @@ import QuizPage from "./Quiz";
 
 const categories = ["Singers", "Scientists", "Actors", "Sportperson", "Politicians", "Animals"];
 const quizCount = 8;
-const timer = 30;
-const secondaryTimer = 15;
+const timer = 60;
+const secondaryTimer = 10;
 
 function App() {
   const [quizMatrix, setQuizMatrix] = React.useState(Object.assign({}, ...categories.map((cat) => ({ [cat]: Array(quizCount).fill(false) }))));
